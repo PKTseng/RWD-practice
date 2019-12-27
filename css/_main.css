@@ -148,3 +148,7 @@
 
 .form-login h2 {
   color: red; }
+
+.form-login .form-login {
+  max-width: 1049px;
+  margin: 0 auto; }
