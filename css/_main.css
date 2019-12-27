@@ -145,3 +145,6 @@
   .info strong {
     font-size: 60px;
     font-weight: bold; }
+
+.form-login h2 {
+  color: red; }
