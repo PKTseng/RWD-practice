@@ -1,0 +1,141 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.wrap {
+  width: 1049px;
+  margin: 0 auto;
+}
+
+.top {
+  background: black;
+  height: 70px;
+}
+
+.top h1 {
+  font-size: 30px;
+  color: white;
+  padding: 20px 40px;
+  font-weight: bold;
+  width: 200px;
+  float: left;
+}
+
+.top ul {
+  float: right;
+  padding: 25px;
+}
+
+.top ul li {
+  float: left;
+}
+
+.top ul li a {
+  padding-left: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.header {
+  background-image: url("https://upload.cc/i1/2019/12/26/6mGlM2.png");
+  height: 420px;
+}
+
+.header .text {
+  padding-top: 120px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.header .text p {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 20px;
+  margin: 0 300px;
+}
+
+.content {
+  background-color: #efe9e7;
+}
+
+.content h2 {
+  text-align: center;
+  color: #3d1101;
+  font-family: 微軟正體;
+  font-weight: bold;
+}
+
+.content .toptext {
+  font-size: 25px;
+  padding: 20px;
+}
+
+.content ul {
+  margin: 0 auto;
+  display: table;
+}
+
+.content ul li {
+  width: 300px;
+  float: left;
+}
+
+.content ul li img {
+  border-radius: 50%;
+  padding-bottom: 10px;
+}
+/*# sourceMappingURL=all.css.map */

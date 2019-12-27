@@ -1,0 +1,42 @@
+.wrap {
+  width: 1049px;
+  margin: 0 auto; }
+
+.top {
+  background: black;
+  height: 70px; }
+  .top h1 {
+    font-size: 30px;
+    color: white;
+    padding: 20px 40px;
+    font-weight: bold;
+    width: 200px;
+    float: left; }
+  .top ul {
+    float: right;
+    padding: 25px; }
+    .top ul li {
+      float: left; }
+      .top ul li a {
+        padding-left: 30px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #ffffff; }
+
+.header {
+  background-image: url("https://upload.cc/i1/2019/12/26/6mGlM2.png");
+  height: 420px; }
+  .header .text {
+    padding-top: 120px;
+    letter-spacing: 1px;
+    text-align: center; }
+    .header .text p {
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      font-size: 20px;
+      line-height: 20px;
+      padding: 20px;
+      margin: 0 300px; }
+
+.content {
+  background-color: #efe9e7; }
